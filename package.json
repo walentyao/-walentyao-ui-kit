@@ -1,0 +1,65 @@
+{
+  "name": "@walentyao/ui-kit",
+  "private": false,
+  "version": "0.0.6",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint ./src --ext ts,tsx,scss --fix",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "classnames": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.5.0",
+    "@storybook/addon-essentials": "^8.1.4",
+    "@storybook/addon-interactions": "^8.1.4",
+    "@storybook/addon-links": "^8.1.4",
+    "@storybook/addon-onboarding": "^8.1.4",
+    "@storybook/blocks": "^8.1.4",
+    "@storybook/react": "^8.1.4",
+    "@storybook/react-vite": "^8.1.4",
+    "@storybook/test": "^8.1.4",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-feature-sliced": "^0.0.2",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.8",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "glob": "^11.0.0",
+    "prettier": "^3.3.3",
+    "storybook": "^8.1.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^4.1.0",
+    "vite-plugin-lib-inject-css": "^2.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

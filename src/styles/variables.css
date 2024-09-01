@@ -1,0 +1,25 @@
+@layer walentyaoUI {
+  :root {
+    /* colors */
+    --color-slate-900: #0f172a;
+    --color-slate-800: #1e293b;
+    --color-slate-700: #334155;
+    --color-slate-600: #475569;
+    --color-slate-500: #64748b;
+    --color-slate-400: #94a3b8;
+    --color-slate-300: #cbd5e1;
+    --color-slate-200: #e2e8f0;
+    --color-slate-100: #f1f5f9;
+    --color-slate-50: #f8fafc;
+
+    /* fonts */
+    --font-h1: 48px/48px 'Inter', sans-serif;
+    --font-h2: 30px/32px 'Inter', sans-serif;
+    --font-h3: 24px/32px 'Inter', sans-serif;
+    --font-h4: 20px/28px 'Inter', sans-serif;
+    --font-large: 18px/24px 'Inter', sans-serif;
+    --font-medium: 16px/20px 'Inter', sans-serif;
+    --font-small: 14px/14px 'Inter', sans-serif;
+    --font-detail: 12px/14px 'Inter', sans-serif;
+  }
+}

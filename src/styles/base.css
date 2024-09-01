@@ -1,0 +1,8 @@
+@layer walentyaoUI {
+  *,
+  *::after,
+  *::before {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  }
+}
