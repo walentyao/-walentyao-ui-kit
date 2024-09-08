@@ -12,6 +12,8 @@
     --color-slate-100: #f1f5f9;
     --color-slate-50: #f8fafc;
 
+    --color-accent-invalid: #ff9900;
+
     /* fonts */
     --font-h1: 48px/48px 'Inter', sans-serif;
     --font-h2: 30px/32px 'Inter', sans-serif;
