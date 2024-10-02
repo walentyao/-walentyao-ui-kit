@@ -5,6 +5,7 @@ import { libInjectCss } from 'vite-plugin-lib-inject-css';
 import { extname, relative, resolve } from 'path';
 import { fileURLToPath } from 'node:url';
 import { globSync } from 'glob';
+import checker from 'vite-plugin-checker';
 
 export default defineConfig({
   build: {
@@ -36,6 +37,9 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    checker({
+      typescript: true,
+    }),
     libInjectCss(),
     dts({
       insertTypesEntry: true,
